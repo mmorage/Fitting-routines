@@ -17,7 +17,7 @@ from numpy import random, exp,sqrt
 import matplotlib.pyplot as plt
 from astropy.modeling import models, fitting, polynomial
 
-N_ITER=5 # Numero de iteraciones
+N_ITER=15005 # Numero de iteraciones
 
 imagen_in=sys.argv[1]
 l_min_izq=float(sys.argv[2])
