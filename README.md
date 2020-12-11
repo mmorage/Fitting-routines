@@ -7,3 +7,4 @@ SED_minimize2.py: Takes a serie of SED (txt file) and subtract to a fits file sp
 
 fit_cont_voigt_boot_Norm.py: Fit a Voight profile to an absorption line, which is bootstraped 1500 times. It ask for: continuum to the left (min-max), continuum to the right (min-max), guess for the central profile, and a guess of the FWHM. 
 
+Ulyimo)intenti_interpoloa.py 2D interpolation for the BOND models.
