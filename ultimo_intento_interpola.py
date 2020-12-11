@@ -63,7 +63,7 @@ def todo():
                      f2=np.round(griddata((A['OH'],A['NO']),A['geom_factor'], (x,y),method='cubic'),decimals=2)   
                      f3=np.round(griddata((A['OH'],A['NO']),A['lU_mean'], (x,y),method='cubic'),decimals=2)   
                      f4=np.round(griddata((A['OH'],A['NO']),A['nebula_cut'], (x,y),method='cubic'),decimals=1)   
-                     f5=np.round(griddata((A['OH'],A['NO']),A['OH'], (x,y),method='cubic'),decimals=1)   
+                     f5=np.round(griddata((A['OH'],A['NO']),A['OH'], (x,y),method='cubic'),decimals=2)   
                      f6=np.round(griddata((A['OH'],A['NO']),A['NO'], (x,y),method='cubic'),decimals=2)   
                      f7=np.round(griddata((A['OH'],A['NO']),A['logU'], (x,y),method='cubic'),decimals=20)   
                      f8=np.round(griddata((A['OH'],A['NO']),A['O2'], (x,y),method='cubic'),decimals=20)   
